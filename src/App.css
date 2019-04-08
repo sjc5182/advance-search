@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -19,15 +13,78 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.List-Wrapper {
+  height: 120px;
+  width: 300px;
+  border: none;
+  overflow-x: hidden;
+  overflow-y: auto; 
+}
+
+.List-border {
+  height: 30px;
+  width: 300px;
+  padding-left: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  align-items: center;
+  background-color: white;
+  padding-right: 10px;
+  cursor: pointer;
+  display: flex;
+}
+
+.Outter-container{ 
+  margin-top: 10px;
+}
+
+.Outer-input{
+  height: 80px;
+  width: 400px;
+  border: 1px solid green;
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Tag-Wrapper {
+  height: 30px;
+  width: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Input-tag {
+  height: 20px;
+  width: 60px;
+  outline-style: groove;
+  outline-color: rgb(249, 251, 252);
+  margin-right: 8px;
+  cursor: pointer;
+  background-color: lightblue;
+}
+
+.Input-wrapper {
+  align-content: center
+}
+
+input{
+  border: none;
+  border-color: transparent;
+  align-items: center;
+  outline: none;
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
 }
